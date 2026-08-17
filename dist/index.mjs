@@ -24,34 +24,13 @@ function defineProvider(spec) {
 }
 function assertPermission(permissionName) {
   const permMap = {
-    "ui:sidebar": () => {
-      var _a;
-      return !!((_a = Aether == null ? void 0 : Aether.ui) == null ? void 0 : _a.registerSidebarPage);
-    },
-    "instances:list": () => {
-      var _a;
-      return !!((_a = Aether == null ? void 0 : Aether.instances) == null ? void 0 : _a.list);
-    },
-    "mods:install": () => {
-      var _a;
-      return !!((_a = Aether == null ? void 0 : Aether.instances) == null ? void 0 : _a.installMod);
-    },
-    "network:http": () => {
-      var _a;
-      return !!((_a = Aether == null ? void 0 : Aether.http) == null ? void 0 : _a.get);
-    },
-    "fs:download": () => {
-      var _a;
-      return !!((_a = Aether == null ? void 0 : Aether.fs) == null ? void 0 : _a.download);
-    },
-    "launcher:modloader": () => {
-      var _a;
-      return !!((_a = Aether == null ? void 0 : Aether.launcher) == null ? void 0 : _a.registerModLoader);
-    },
-    "skin:export": () => {
-      var _a;
-      return !!((_a = Aether == null ? void 0 : Aether.skins) == null ? void 0 : _a.export);
-    }
+    "ui:sidebar": () => !!Aether?.ui?.registerSidebarPage,
+    "instances:list": () => !!Aether?.instances?.list,
+    "mods:install": () => !!Aether?.instances?.installMod,
+    "network:http": () => !!Aether?.http?.get,
+    "fs:download": () => !!Aether?.fs?.download,
+    "launcher:modloader": () => !!Aether?.launcher?.registerModLoader,
+    "skin:export": () => !!Aether?.skins?.export
   };
   const check = permMap[permissionName];
   if (check && !check()) {

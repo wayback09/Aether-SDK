@@ -1,7 +1,5 @@
 # Aether SDK (@aether/sdk)
 
-> **⚠️ Work In Progress** — This package is not yet publicly released. The API is subject to change.
-
 The Aether SDK provides the core TypeScript definitions and helper utilities needed to develop extensions for the Aether Minecraft Launcher.
 
 ## Installation
@@ -10,7 +8,6 @@ The Aether SDK provides the core TypeScript definitions and helper utilities nee
 npm install --save-dev @aether/sdk
 ```
 
-> This package is currently hosted in a private repository and is not yet available on npm. It will be published once it reaches a stable release.
 
 ## Features
 
