@@ -1,5 +1,5 @@
 {
-  "name": "@aether/sdk",
+  "name": "@aethermc/sdk",
   "version": "1.0.0",
   "description": "TypeScript SDK and type definitions for Aether extensions",
   "main": "dist/index.js",

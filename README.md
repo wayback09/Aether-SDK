@@ -1,11 +1,11 @@
-# Aether SDK (@aether/sdk)
+# Aether SDK (@aethermc/sdk)
 
 The Aether SDK provides the core TypeScript definitions and helper utilities needed to develop extensions for the Aether Minecraft Launcher.
 
 ## Installation
 
 ```bash
-npm install --save-dev @aether/sdk
+npm install --save-dev @aethermc/sdk
 ```
 
 
@@ -23,7 +23,7 @@ npm install --save-dev @aether/sdk
 In your extension's `main.js` (or `main.ts`):
 
 ```typescript
-import { onReady, createLogger, assertPermission } from '@aether/sdk';
+import { onReady, createLogger, assertPermission } from '@aethermc/sdk';
 
 const log = createLogger('my-extension');
 
