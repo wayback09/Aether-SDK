@@ -41,3 +41,7 @@ onReady(() => {
     });
 });
 ```
+
+## License
+
+Licensed under the GNU General Public License v3.0 only. See [LICENSE](LICENSE).

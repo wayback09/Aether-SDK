@@ -10,7 +10,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "MIT",
+  "license": "GPL-3.0-only",
   "type": "commonjs",
   "devDependencies": {
     "tsup": "^8.5.1",
