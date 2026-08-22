@@ -1,5 +1,11 @@
 # Aether SDK (@aethermc/sdk)
 
+<p align="center">
+  <a href="https://discord.gg/pQc9NnGhpG">
+    <img src="https://img.shields.io/discord/1276219898393333761?label=Join%20our%20Discord&logo=discord&logoColor=white&color=5865F2&style=for-the-badge" alt="Discord">
+  </a>
+</p>
+
 The Aether SDK provides the core TypeScript definitions and helper utilities needed to develop extensions for the Aether Minecraft Launcher.
 
 ## Installation
